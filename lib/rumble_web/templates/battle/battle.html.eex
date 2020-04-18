@@ -1,0 +1,179 @@
+<div id="game-container">
+  <div class="character-container">
+    <div class="character-panel">
+      <div class="battle-portrait">
+        <img src="" />
+      </div>
+      <div class="health-bar">100</div>
+    </div>
+    <div class="action-bar">
+      <div class="status-bar">
+        <img class="status-effect" src="" />
+        <img class="status-effect" src="" />
+        <img class="status-effect" src="" />
+        <img class="status-effect" src="" />
+        <img class="status-effect" src="" />
+      </div>
+      <div class="skill-bar">
+        <img class="skill" src="" />
+        <img class="skill" src="" />
+        <img class="skill" src="" />
+        <img class="skill" src="" />
+      </div>
+    </div>
+  </div>
+
+  <div class="enemy-character-container">
+    <div class="status-bar">
+      <img class="status-effect" src="" />
+      <img class="status-effect" src="" />
+      <img class="status-effect" src="" />
+      <img class="status-effect" src="" />
+      <img class="status-effect" src="" />
+    </div>
+    <div class="character-panel">
+      <div class="battle-portrait">
+        <img src="" />
+      </div>
+      <div class="health-bar"></div>
+    </div>
+  </div>
+  <div class="character-container">
+    <div class="character-panel">
+      <div class="battle-portrait">
+        <img src="" />
+      </div>
+      <div class="health-bar">100</div>
+    </div>
+    <div class="action-bar">
+      <div class="status-bar">
+        <img class="status-effect" src="" />
+        <img class="status-effect" src="" />
+        <img class="status-effect" src="" />
+        <img class="status-effect" src="" />
+        <img class="status-effect" src="" />
+      </div>
+      <div class="skill-bar">
+        <img class="skill" src="" />
+        <img class="skill" src="" />
+        <img class="skill" src="" />
+        <img class="skill" src="" />
+      </div>
+    </div>
+  </div>
+
+  <div class="enemy-character-container">
+    <div class="status-bar">
+      <img class="status-effect" src="" />
+      <img class="status-effect" src="" />
+      <img class="status-effect" src="" />
+      <img class="status-effect" src="" />
+      <img class="status-effect" src="" />
+    </div>
+    <div class="character-panel">
+      <div class="battle-portrait">
+        <img src="" />
+      </div>
+      <div class="health-bar"></div>
+    </div>
+  </div>
+  <div class="character-container">
+    <div class="character-panel">
+      <div class="battle-portrait">
+        <img src="" />
+      </div>
+      <div class="health-bar">100</div>
+    </div>
+    <div class="action-bar">
+      <div class="status-bar">
+        <img class="status-effect" src="" />
+        <img class="status-effect" src="" />
+        <img class="status-effect" src="" />
+        <img class="status-effect" src="" />
+        <img class="status-effect" src="" />
+      </div>
+      <div class="skill-bar">
+        <img class="skill" src="" />
+        <img class="skill" src="" />
+        <img class="skill" src="" />
+        <img class="skill" src="" />
+      </div>
+    </div>
+  </div>
+
+  <div class="enemy-character-container">
+    <div class="status-bar">
+      <img class="status-effect" src="" />
+      <img class="status-effect" src="" />
+      <img class="status-effect" src="" />
+      <img class="status-effect" src="" />
+      <img class="status-effect" src="" />
+    </div>
+    <div class="character-panel">
+      <div class="battle-portrait">
+        <img src="" />
+      </div>
+      <div class="health-bar"></div>
+    </div>
+  </div>
+  <%#   
+  <div class="character-container">
+    <div class="character-panel">
+      <div class="battle-portrait"></div>
+      <div class="health-bar"></div>
+    </div>
+    <div class="action-bar">
+      <div class="status-bar">
+      </div>
+      <div class="skill-bar">
+      </div>
+    </div>
+  </div>
+
+  <div class="enemy-character-container">
+    <div class="status-bar">
+    </div>
+    <div class="character-panel">
+      <div class="battle-portrait"></div>
+      <div class="health-bar">100</div>
+    </div>
+  </div>
+  <div class="character-container">
+    <div class="character-panel">
+      <div class="battle-portrait"></div>
+      <div class="health-bar"></div>
+    </div>
+    <div class="action-bar">
+      <div class="status-bar">
+      </div>
+      <div class="skill-bar">
+      </div>
+    </div>
+  </div>
+
+  <div class="enemy-character-container">
+    <div class="status-bar">
+    </div>
+    <div class="character-panel">
+      <div class="battle-portrait"></div>
+      <div class="health-bar">100</div>
+    </div>
+  </div> %>
+</div>
+
+
+
+<%# allies 1-3%>
+<%# portrait/hp (char frame)%>
+<%# skill bar%>
+<%# status bar%>
+<%# rank overlay%>
+<%# enemies%>
+<%# char frame%>
+
+<%# Friendly Character Components%>
+<%# <hr/> %>
+<%# <hr/> %>
+<%# <%= render_many enemies(), RumbleWeb.BattleView, "character.html", conn: @conn%>
+
+<%# Enemy Character Components%>

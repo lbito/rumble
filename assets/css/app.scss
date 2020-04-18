@@ -1,0 +1,25 @@
+/* This file is for your main application css. */
+
+@import "./phoenix.css";
+@import "./battle.scss";
+html {
+    background-color: whitesmoke;
+}
+
+header {
+    display: inline-block;
+    margin: 0 auto;
+    background-color: steelblue;
+    margin: auto;
+}
+
+h1 {
+    text-align: center;
+    margin: 0 auto;
+}
+
+h1 a {
+    font-family: Papyrus, fantasy;
+    font-weight: bold;
+    color: whitesmoke;
+}
